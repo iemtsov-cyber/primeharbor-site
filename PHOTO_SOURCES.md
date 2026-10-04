@@ -1,0 +1,12 @@
+# Photo sources
+
+- Garment production / Швейное производство: GarmentsWithoutGuilt — https://commons.wikimedia.org/wiki/File:Sri_Lankan_garment_workers.jpg — CC BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0/)
+- Coffee / Кофе: Daniel Case — https://commons.wikimedia.org/wiki/File:Coffee_cherries_on_bush_at_Fairview_Estate,_Kiambu,_KE.jpg — CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+- Activated carbon / Активированный уголь: Ravedave — https://commons.wikimedia.org/wiki/File:Activated_Carbon.jpg — CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/)
+- Library / Библиотека: jason hu — https://unsplash.com/photos/students-studying-at-tables-in-a-library-EP8lBWLFLkg — Unsplash License (https://unsplash.com/license)
+- Study space / Учебное пространство: Caroline Andrade Rocha — https://unsplash.com/photos/two-people-studying-in-a-quiet-sunlit-space-z_dLp6KnCoQ — Unsplash License (https://unsplash.com/license)
+- P.T. Gardens: supplied project photo, assets/images/exterior-front.webp.
+
+Resized and encoded as WebP; CSS framing varies by viewport. CC BY-SA image derivatives remain available under their respective licenses. No generated images.
+
+Educational subject areas adapted from the user-supplied VIEWMAZE PDF, page 2: Russian university pathways; medicine, engineering, IT and other programmes. No imported partner counts, accreditation claims, immigration services or ownership claims. Photographs from that PDF were considered but not used in the published version.
