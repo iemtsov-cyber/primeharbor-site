@@ -1,5 +1,7 @@
 const copy = {
   "en": {
+    "investment.cta": "P.T. Gardens · View opportunity",
+    "investment.ctaShort": "Explore P.T. Gardens",
     "education.cta": "For students and universities",
     "nav.about": "About",
     "nav.pillars": "What we do",
@@ -145,6 +147,8 @@ const copy = {
     "photo.back": "Back to Prime Harbor"
   },
   "ru": {
+    "investment.cta": "P.T. Gardens · Инвестиционное предложение",
+    "investment.ctaShort": "Подробнее о P.T. Gardens",
     "education.cta": "Студентам и университетам",
     "nav.about": "О нас",
     "nav.pillars": "Направления",

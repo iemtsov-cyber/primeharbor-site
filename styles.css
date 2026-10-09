@@ -45,3 +45,4 @@
 .legal-id{display:inline-block;margin-right:18px;white-space:nowrap;font-variant-numeric:tabular-nums}
 .legal-en{display:none}html[lang=en] .legal-en{display:inline}html[lang=en] .legal-ru{display:none}
 @media(max-width:760px){.legal-grid{grid-template-columns:1fr;gap:18px}.legal-details{padding-top:22px;padding-bottom:26px}}
+.property-home-link{grid-column:2;color:var(--gold);font-size:14px;margin-top:10px}

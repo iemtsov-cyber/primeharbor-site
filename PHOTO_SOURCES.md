@@ -21,3 +21,7 @@ Illustrative images, not Prime Harbor placements or testimonials. No generated i
 ## Education page, 9 October 2026
 
 Project-supplied photos and educational material from https://studyrus.net/ (classroom.jpg, winter-campus.jpg, international-day.jpg). User confirmed this is Shan’s own project and requested publication under Prime Harbor branding. Converted to WebP. Original author/rightsholder not independently identified; no stock license claimed. Original source preserved here for provenance only. September 20, 2026 deadline is explicitly marked as past; no unverified intake, tuition, accreditation or guaranteed admission claims. University cooperation presented as an invitation to discuss, not an existing formal agreement.
+
+## P.T. Gardens investment page, 9 October 2026
+
+Owner-supplied property photos, document previews, memorandum, corporate brochure and authorization copied from the user-owned repository https://github.com/iemtsov-cyber/pt-gardens at commit d3ba637dbe4bfb63a11fdd4a370e721ca0db35cc. Files under assets/pt-gardens/. Original documents unchanged. Indicative asking price and preliminary financial status retained. Areas and combined venue capacity qualified as in the source materials. No forecast returns or verified valuation claims.
