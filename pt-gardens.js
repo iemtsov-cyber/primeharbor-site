@@ -47,6 +47,17 @@
 })();
 
 (() => {
+ const video=document.querySelector('#hotel-video'),button=document.querySelector('.property-video-play'),error=document.querySelector('.property-video-error');
+ button.addEventListener('click',async()=>{
+   button.disabled=true;error.hidden=true;
+   try {await video.play();} catch {error.hidden=false;} finally {button.disabled=false;}
+ });
+ video.addEventListener('play',()=>{button.hidden=true;error.hidden=true;});
+ video.addEventListener('error',()=>{error.hidden=false;button.hidden=false;button.disabled=false;});
+ video.addEventListener('ended',()=>{button.hidden=false;});
+})();
+
+(() => {
  const dialog=document.querySelector('.property-dialog'),image=dialog.querySelector('img'),caption=dialog.querySelector('p');
  document.querySelectorAll('[data-photo]').forEach(button=>button.addEventListener('click',()=>{
   const original=button.querySelector('img'); image.src=button.dataset.photo; image.alt=original.alt;caption.textContent=original.alt;dialog.showModal();
