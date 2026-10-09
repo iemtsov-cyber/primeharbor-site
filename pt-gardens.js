@@ -48,7 +48,6 @@
 
 (() => {
  const video=document.querySelector('#hotel-video'),button=document.querySelector('.property-video-play'),error=document.querySelector('.property-video-error');
- document.querySelectorAll('[data-video-start]').forEach(link=>link.addEventListener('click',()=>button.click()));
  button.addEventListener('click',async()=>{
    button.disabled=true;error.hidden=true;
    try {await video.play();} catch {error.hidden=false;} finally {button.disabled=false;}
