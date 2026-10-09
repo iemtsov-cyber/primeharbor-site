@@ -26,6 +26,10 @@ Project-supplied photos and educational material from https://studyrus.net/ (cla
 
 Owner-supplied property photos, document previews, memorandum, corporate brochure and authorization copied from the user-owned repository https://github.com/iemtsov-cyber/pt-gardens at commit d3ba637dbe4bfb63a11fdd4a370e721ca0db35cc. Files under assets/pt-gardens/. Original documents unchanged. Indicative asking price and preliminary financial status retained. Areas and combined venue capacity qualified as in the source materials. No forecast returns or verified valuation claims.
 
+## Authorization scan correction, 9 October 2026
+
+The authorization card uses letter-of-authorization-clean.png and authorization-clean-preview.webp, derived directly from the original signed JPEG. Paper illumination was normalized and grayscale contrast adjusted; blank edges were cropped. Text, date and pen strokes retain their original pixel geometry. No generative reconstruction, OCR or typesetting was used in the published document. The original letter-of-authorization.jpg remains preserved unchanged. Original SHA-256: 07984f7f94cc8aa91256acf7f7cc99ad0f4c4f7e75ca639f8f39552fc3ebef36.
+
 ## Official hotel video, 9 October 2026
 
 Official hero video source: https://ptgardenshotel.com/ → https://pub-e06b894031eb4d88b43cd98c27eabdb0.r2.dev/Video/home.mp4 (52,574,390 bytes; 192.63 seconds; 1280×720 H.264/AAC). Added at the user’s request. Retrieved via the hosting panel because the original CDN stalled on this connection. Re-encoded to H.264 CRF 25/AAC 96 kbps, fast-start MP4, with original dimensions and audio retained; no content edits. Local file hotel-film.mp4; poster extracted at 20 seconds. Playback begins only on user action.
