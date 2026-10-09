@@ -17,3 +17,7 @@ Educational subject areas adapted from the user-supplied VIEWMAZE PDF, page 2: R
 - Smiling agricultural workers, Nagpur, India: EqualStock IN — https://www.pexels.com/photo/laughing-women-working-on-rural-field-20223767/ — Pexels License. Local asset: farm-team.webp.
 
 Illustrative images, not Prime Harbor placements or testimonials. No generated imagery. Resized and converted to WebP.
+
+## Education page, 9 October 2026
+
+Project-supplied photos and educational material from https://studyrus.net/ (classroom.jpg, winter-campus.jpg, international-day.jpg). User confirmed this is Shan’s own project and requested publication under Prime Harbor branding. Converted to WebP. Original author/rightsholder not independently identified; no stock license claimed. Original source preserved here for provenance only. September 20, 2026 deadline is explicitly marked as past; no unverified intake, tuition, accreditation or guaranteed admission claims. University cooperation presented as an invitation to discuss, not an existing formal agreement.

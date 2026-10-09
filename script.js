@@ -1,5 +1,6 @@
 const copy = {
   "en": {
+    "education.cta": "For students and universities",
     "nav.about": "About",
     "nav.pillars": "What we do",
     "nav.model": "How we work",
@@ -144,6 +145,7 @@ const copy = {
     "photo.back": "Back to Prime Harbor"
   },
   "ru": {
+    "education.cta": "Студентам и университетам",
     "nav.about": "О нас",
     "nav.pillars": "Направления",
     "nav.model": "Как мы работаем",
