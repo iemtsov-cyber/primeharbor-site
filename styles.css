@@ -34,3 +34,5 @@
 .credits-page{padding-block:70px;max-width:900px}.credits-page h1{font-size:clamp(2.5rem,6vw,4rem);margin:30px 0}.credits-page h2{font-size:2rem;margin:35px 0 12px}.credits-page p{color:var(--muted)}.credits-page a{text-decoration:underline;text-underline-offset:4px}.credits-page article{border-top:1px solid var(--line);padding:18px 0}
 @media(max-width:1000px){.photo-story img{height:250px}.photo-grid .photo-story:last-child{gap:28px}.photo-grid .photo-story:last-child img{height:290px}}
 @media(max-width:760px){.photo-grid{gap:34px}.photo-story img{height:auto;aspect-ratio:3/2}.photo-grid .photo-story:last-child{display:block}.photo-grid .photo-story:last-child img{height:auto}.photo-grid .photo-story:last-child .photo-story-copy{padding-top:22px;margin-top:16px;border-top:1px solid var(--line)}.talent-photo{max-width:560px}}
+
+.talent-detail-link{margin-top:24px;font-size:14px;max-width:100%}.talent-pillar-link{display:inline-block;color:var(--gold);font-size:14px;text-decoration:underline;text-underline-offset:5px;margin-top:12px}

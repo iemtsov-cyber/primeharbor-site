@@ -10,3 +10,10 @@
 Resized and encoded as WebP; CSS framing varies by viewport. CC BY-SA image derivatives remain available under their respective licenses. No generated images.
 
 Educational subject areas adapted from the user-supplied VIEWMAZE PDF, page 2: Russian university pathways; medicine, engineering, IT and other programmes. No imported partner counts, accreditation claims, immigration services or ownership claims. Photographs from that PDF were considered but not used in the published version.
+
+## Recruitment page, 9 October 2026
+
+- Smiling textile workers, India: EqualStock — https://unsplash.com/photos/workers-are-smiling-while-sewing-in-a-factory-WjsH0BGkHyk — Unsplash License. Local asset: textile-worker.webp.
+- Smiling agricultural workers, Nagpur, India: EqualStock IN — https://www.pexels.com/photo/laughing-women-working-on-rural-field-20223767/ — Pexels License. Local asset: farm-team.webp.
+
+Illustrative images, not Prime Harbor placements or testimonials. No generated imagery. Resized and converted to WebP.
