@@ -46,3 +46,12 @@
 .legal-en{display:none}html[lang=en] .legal-en{display:inline}html[lang=en] .legal-ru{display:none}
 @media(max-width:760px){.legal-grid{grid-template-columns:1fr;gap:18px}.legal-details{padding-top:22px;padding-bottom:26px}}
 .property-home-link{grid-column:2;color:var(--gold);font-size:14px;margin-top:10px}
+
+/* Shared business phone: visible number and a comfortable mobile tap target. */
+.contact-phone{display:flex;align-items:center;gap:12px;width:fit-content;max-width:100%;min-height:48px;color:var(--gold);font-size:clamp(1rem,1.7vw,1.4rem);font-variant-numeric:tabular-nums;line-height:1.4;transition:color .2s}
+.contact-phone svg{flex:0 0 22px}
+.contact-phone span{white-space:nowrap}
+.contact-phone:hover{color:var(--text)}
+.contact-phone:hover span{text-decoration:underline;text-underline-offset:5px}
+.contact-copy>.contact-phone{margin-top:20px}
+.recruit-contact-card>.contact-phone{border-top:1px solid var(--line);padding-top:16px;min-height:60px}
