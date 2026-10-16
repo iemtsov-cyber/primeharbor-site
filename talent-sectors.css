@@ -1,0 +1,11 @@
+/* Five separate recruitment sectors, with the first three paired to the photos below. */
+.recruit-sector-grid--five{grid-template-columns:repeat(6,minmax(0,1fr))}
+.recruit-sector-grid--five>article{grid-column:span 2;min-width:0}
+.recruit-sector-grid--five>article:nth-last-child(-n+2){grid-column:span 3}
+.recruit-sector-photos{grid-template-columns:repeat(3,minmax(0,1fr))}
+.recruit-sector-photos>figure{min-width:0}
+.recruit-sector-photos img{width:100%;height:auto;aspect-ratio:3/2;object-fit:cover}
+.gem-photo-credit{display:block;font-size:11px;line-height:1.65;margin-top:8px}
+.gem-photo-credit a{text-decoration:underline;text-underline-offset:3px}
+@media(max-width:1100px){.recruit-sector-grid--five{grid-template-columns:repeat(2,minmax(0,1fr))}.recruit-sector-grid--five>article,.recruit-sector-grid--five>article:nth-last-child(-n+2){grid-column:span 1}.recruit-sector-grid--five>article:last-child{grid-column:1/-1}}
+@media(max-width:760px){.recruit-sector-grid--five,.recruit-sector-photos{grid-template-columns:minmax(0,1fr)}.recruit-sector-grid--five>article,.recruit-sector-grid--five>article:nth-last-child(-n+2){grid-column:1}.recruit-sector-grid--five h3{overflow-wrap:anywhere}}
