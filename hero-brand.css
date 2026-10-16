@@ -12,5 +12,11 @@
 .hero-film-control:focus-visible{outline:2px solid #e8c78d;outline-offset:-5px}
 .hero-film-control svg{width:12px;height:12px;fill:currentColor;flex:none}
 .hero-film-control .film-pause{display:none}.hero-brand.is-playing .film-pause{display:block}.hero-brand.is-playing .film-play{display:none}
-@media(max-width:760px){.hero-logo-wrap.hero-brand{width:100%;max-width:none;margin:24px auto 36px}.hero-film-control{right:10px;bottom:10px}}
-@media(prefers-reduced-motion:reduce){.hero-brand .hero-film,.hero-brand .hero-film-control{display:none}.hero-brand .hero-film{transition:none}}
+@media(max-width:760px){
+  .home-immersive .site-header{height:calc(76px + env(safe-area-inset-top,0px));padding-top:env(safe-area-inset-top,0px);padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px,env(safe-area-inset-right,0px))}
+  .home-immersive .mobile-menu:not([hidden]){top:calc(76px + env(safe-area-inset-top,0px))}
+  .hero-logo-wrap.hero-brand{width:calc(100% + 40px);max-width:none;margin:0 -20px 40px;aspect-ratio:auto;height:calc(100vh - var(--hero-header-height,76px));height:calc(100svh - var(--hero-header-height,calc(76px + env(safe-area-inset-top,0px))));height:calc(100dvh - var(--hero-header-height,calc(76px + env(safe-area-inset-top,0px))))}
+  .hero-brand .hero-wordmark{object-fit:contain;width:100%;max-width:none;height:100%;inset:0}
+  .hero-film-control{right:max(14px,env(safe-area-inset-right,0px));bottom:calc(14px + env(safe-area-inset-bottom,0px))}
+}
+@media(prefers-reduced-motion:reduce){.hero-brand .hero-film{transition:none}}

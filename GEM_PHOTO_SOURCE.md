@@ -1,3 +1,5 @@
+> Historical asset: removed from the recruitment page on 16 October 2026. Retained for rollback; the current mining illustration is documented in MINING_PHOTO_SOURCE.md.
+
 # Gemstone recruitment illustration
 
 [Hand-sorting washed gem gravel, Pelmadulla, Sri Lanka (2026)](https://commons.wikimedia.org/wiki/File:Hand-sorting_washed_gem_gravel,_Pelmadulla,_Sri_Lanka_(2026).jpg), photographed 29 March 2026 by **Ilyes Makria / Joalys**. Own work, still frame from the uploader's video at an artisanal gem pit near Pelmadulla, Ratnapura District, Sri Lanka.
