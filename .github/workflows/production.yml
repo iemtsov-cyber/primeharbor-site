@@ -41,6 +41,7 @@ jobs:
             python3 deploy/build.py
           fi
           node deploy/check-browser.cjs
+          if [ -f dist/site/analytics-consent.js ]; then node deploy/check-consent.cjs; fi
   release:
     needs: validate
     if: github.repository == 'iemtsov-cyber/primeharbor-site' && github.ref == 'refs/heads/main'
