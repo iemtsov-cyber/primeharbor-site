@@ -22,6 +22,10 @@ Illustrative images, not Prime Harbor placements or testimonials. No generated i
 
 Project-supplied photos and educational material from https://studyrus.net/ (classroom.jpg, winter-campus.jpg, international-day.jpg). User confirmed this is Shan’s own project and requested publication under Prime Harbor branding. Converted to WebP. Original author/rightsholder not independently identified; no stock license claimed. Original source preserved here for provenance only. September 20, 2026 deadline is explicitly marked as past; no unverified intake, tuition, accreditation or guaranteed admission claims. University cooperation presented as an invitation to discuss, not an existing formal agreement.
 
+## Shan coordinator profile, 16 October 2026
+
+Eight photographs under assets/photos/shan/ were transferred from the user-approved Shan_Profile_Modern_RU_EN.pdf at the user's request. Portrait and three complete WhatsApp photographs retain their original JPEG bytes. The student group uses the previously approved crop (105, 185, 1595, 1125); three university images use the selected crops from pages 11–12 of the supplied MAIN_PROFILE.pdf. Crops are encoded as lossless WebP with exact source pixels preserved. No generated imagery, facial retouching, warping or enhancement. Captions and biography follow the approved portfolio; the user supplied the Prime Harbor student-project coordinator role. University photos describe meetings, without claiming formal institutional partnerships.
+
 ## P.T. Gardens investment page, 9 October 2026
 
 Owner-supplied property photos, document previews, memorandum, corporate brochure and authorization copied from the user-owned repository https://github.com/iemtsov-cyber/pt-gardens at commit d3ba637dbe4bfb63a11fdd4a370e721ca0db35cc. Files under assets/pt-gardens/. Original documents unchanged. Indicative asking price and preliminary financial status retained. Areas and combined venue capacity qualified as in the source materials. No forecast returns or verified valuation claims.

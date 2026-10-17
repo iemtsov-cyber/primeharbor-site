@@ -17,3 +17,30 @@
 .education-page #universities{scroll-margin-top:90px}
 @media(max-width:1100px){.education-page .recruit-hero-grid{gap:30px}.education-page .recruit-hero-photo img{height:460px}.education-paths{gap:26px}}
 @media(max-width:760px){.education-page .recruit-hero-grid,.education-paths,.education-community .recruit-photo-pair{grid-template-columns:1fr}.education-page .recruit-hero-photo img{height:auto;aspect-ratio:4/3}.education-page .recruit-intro h1{font-size:3.35rem}.education-community{padding-bottom:55px}.education-paths{gap:20px}.education-paths h3{margin:12px 0}}
+
+/* Shan coordinator */
+.coordinator-jump{margin-top:18px;color:var(--gold)}
+.education-coordinator{padding-block:80px;background:var(--panel);scroll-margin-top:90px}
+.education-coordinator>.section-shell>.eyebrow{margin-bottom:32px}
+.coordinator-profile{display:grid;grid-template-columns:210px minmax(0,1fr);gap:56px;align-items:start}
+.coordinator-portrait{margin:0}.coordinator-portrait img{width:100%;height:auto}
+.coordinator-portrait figcaption{font-size:12px;color:var(--gold);margin-top:14px;line-height:1.6}
+.coordinator-caption-line{display:block;white-space:nowrap}
+.coordinator-copy h2{font-size:clamp(2rem,4.1vw,3.7rem);overflow-wrap:anywhere;text-wrap:wrap;margin:0 0 22px;line-height:1.12}
+.coordinator-initials{display:block;font:500 15px/1.5 var(--sans);letter-spacing:.18em;color:var(--gold);margin-bottom:8px}
+.coordinator-copy p{color:var(--muted);max-width:850px;font-size:15px;margin-bottom:18px}
+.coordinator-copy .coordinator-lead{font-size:18px;line-height:1.65;color:var(--text)}
+.coordinator-copy .text-link{color:var(--gold);margin-top:6px}
+.coordinator-gallery-heading{display:flex;align-items:end;justify-content:space-between;gap:40px;border-top:1px solid var(--line);padding-top:36px;margin-top:48px;margin-bottom:26px}
+.coordinator-gallery-heading h3{font-size:2.2rem;max-width:530px}
+.coordinator-gallery-heading p{font-size:12px;line-height:1.65;color:var(--muted);max-width:330px;margin:0}
+.coordinator-featured{display:grid;grid-template-columns:minmax(0,2.1135fr) minmax(0,1fr);gap:28px;align-items:start}
+.coordinator-photo{margin:0;min-width:0}.coordinator-photo a{display:block;background:#09121a;overflow:hidden}
+.coordinator-photo img{width:100%;height:auto;transition:opacity .2s}.coordinator-photo a:hover img{opacity:.88}
+.coordinator-photo figcaption{margin-top:12px;color:var(--muted);font-size:12px;line-height:1.6}
+.coordinator-featured .coordinator-photo img{height:auto;object-fit:contain}
+.coordinator-gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:30px 28px;margin-top:32px}
+.coordinator-gallery img{height:auto;aspect-ratio:3/2;object-fit:contain}
+@media(max-width:1100px){.coordinator-profile{grid-template-columns:175px minmax(0,1fr);gap:32px}.coordinator-gallery-heading{align-items:start}}
+@media(max-width:760px){.education-page .recruit-process,.education-page .recruit-split{grid-template-columns:minmax(0,1fr)}.education-page .recruit-process li,.education-page .recruit-process li>div,.education-page .recruit-split>div{min-width:0;overflow-wrap:anywhere}}
+@media(max-width:760px){.education-coordinator{padding-block:55px}.coordinator-profile{grid-template-columns:1fr;gap:28px}.coordinator-portrait{max-width:210px}.coordinator-copy h2{font-size:clamp(1.9rem,7.4vw,3rem)}.coordinator-copy .coordinator-lead{font-size:17px}.coordinator-gallery-heading{display:block;margin-top:36px;padding-top:30px}.coordinator-gallery-heading h3{font-size:2rem;margin-bottom:14px}.coordinator-featured,.coordinator-gallery{grid-template-columns:1fr;gap:26px}.coordinator-featured .coordinator-photo img,.coordinator-gallery img{height:auto;aspect-ratio:auto}.coordinator-photo--meeting{max-width:420px}.coordinator-gallery{margin-top:26px}}
