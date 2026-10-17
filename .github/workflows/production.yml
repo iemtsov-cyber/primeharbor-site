@@ -1,0 +1,68 @@
+name: Prime Harbor production
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      rollback_release:
+        description: 'Optional previous production tag (primeharbor-RUN-ATTEMPT); blank publishes main'
+        required: false
+        type: string
+permissions:
+  contents: read
+concurrency:
+  group: primeharbor-production
+  cancel-in-progress: false
+env:
+  RELEASE_VERSION: gh-${{ github.run_id }}-${{ github.run_attempt }}
+  ROLLBACK_RELEASE: ${{ inputs.rollback_release || '' }}
+jobs:
+  validate:
+    if: github.repository == 'iemtsov-cyber/primeharbor-site' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09
+        with:
+          persist-credentials: false
+      - name: Install pinned validation tools
+        run: |
+          python3 -m pip install --disable-pip-version-check pypdf==5.1.0
+          npm install --no-save --ignore-scripts --package-lock=false playwright-core@1.51.1
+      - name: Build and validate static files
+        run: |
+          python3 deploy/controller.py --selftest
+          python3 deploy/test_controller.py
+          if [ -n "$ROLLBACK_RELEASE" ]; then
+            python3 deploy/release.py rollback
+          else
+            python3 deploy/build.py
+          fi
+          node deploy/check-browser.cjs
+  release:
+    needs: validate
+    if: github.repository == 'iemtsov-cyber/primeharbor-site' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 18
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09
+        with:
+          persist-credentials: false
+      - name: Build identical validated artifact
+        run: |
+          python3 -m pip install --disable-pip-version-check pypdf==5.1.0
+          if [ -n "$ROLLBACK_RELEASE" ]; then
+            python3 deploy/release.py rollback
+          else
+            python3 deploy/build.py
+          fi
+      - name: Publish immutable versioned artifact
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 deploy/release.py publish
+      - name: Confirm production hashes and healthy version marker
+        run: python3 deploy/release.py wait
