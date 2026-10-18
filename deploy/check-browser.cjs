@@ -23,7 +23,27 @@ const server=http.createServer((req,res)=>{
    }
    await page.goto(base+'/talent.html');
    for(const lang of ['ru','en']){await page.locator(`[data-lang="${lang}"]`).click();assert.equal(await page.locator('a[href="tel:+79165362414"]').count(),0);assert.equal(await page.locator('.recruit-contact-card a[href="tel:+74951081801"]').count(),1);checks++;}
-   await page.goto(base+'/education.html');assert.ok(await page.locator('img[src*="portrait-cropped.png"]').count());checks++;await page.close();
+   await page.goto(base+'/education.html');assert.ok(await page.locator('img[src*="portrait-cropped.png"]').count());checks++;
+   await page.goto(base+'/trade.html#gems');
+   await page.locator('#gems img').scrollIntoViewIfNeeded();
+   await page.waitForFunction(()=>{const image=document.querySelector('#gems img');return image.complete&&image.naturalWidth===1536});
+   for(const lang of ['ru','en']){
+    await page.locator(`[data-lang="${lang}"]`).click();
+    assert.equal(await page.locator('#gems h2').textContent(),'Gems');
+    assert.equal(await page.locator('#gems img').getAttribute('alt'),lang==='ru'?'Иллюстрация синего огранённого сапфира':'Illustration of a faceted blue sapphire');
+    assert.equal(await page.locator('#gems p,#gems a,#gems button').count(),0);
+    const s=await page.locator('#gems').evaluate(el=>({width:el.getBoundingClientRect().width,overflow:document.documentElement.scrollWidth>innerWidth}));
+    assert.ok(s.width>width*.75&&s.width<=width);assert.equal(s.overflow,false);
+    for(const id of ['kernells','bananas','coffee','range','enquiry'])assert.equal(await page.locator('#'+id).count(),1);
+    checks++;
+   }
+   if(width===390){
+    for(let repeat=0;repeat<2;repeat++){
+     await page.locator('.menu-toggle').click();assert.equal(await page.locator('.menu-toggle').getAttribute('aria-expanded'),'true');
+     await page.keyboard.press('Escape');assert.equal(await page.locator('.menu-toggle').getAttribute('aria-expanded'),'false');
+    }
+   }
+   await page.close();
   }
   for(const mode of ['reduce','blocked']){
    const ctx=await browser.newContext({viewport:{width:390,height:844},reducedMotion:mode==='reduce'?'reduce':'no-preference'});

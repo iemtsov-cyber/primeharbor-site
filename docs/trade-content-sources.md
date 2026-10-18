@@ -19,3 +19,11 @@ The page preserves the existing Russian/English Prime Harbor brand and contact d
 ## Behaviour
 
 Home navigation keeps its existing #trade anchor. The Trade card links to trade.html. Product links select the relevant item in the enquiry form. Submission prepares a mailto draft; it does not claim to send a message or store an enquiry. No new trackers or backend service are added.
+
+## Gems visual
+
+- Added on 18 October 2026 at the owner's request: a large blue faceted sapphire with only the visible label “Gems” in the public Trade section.
+- `assets/trade/sapphire-blue-illustration.webp` is an AI-generated illustrative studio render created with the built-in OpenAI image-generation tool, not a photograph of a particular stone, inventory item or supplier product. The bilingual alternative text identifies it as an illustration.
+- Original output: 1536 × 1024 PNG. WebP encoding at quality 90, with no retouching or compositing; 143,130 bytes.
+- No price, provenance, size, certification, availability or supply commitment is asserted. Existing Kernell’s, banana and coffee content and contact behaviour remain unchanged.
+- Prompt: A single huge, beautiful, brilliantly faceted blue sapphire; photorealistic illustrative studio render; oval cushion-cut, royal and cornflower blues, controlled studio highlights; complete gemstone centered on a deep midnight-navy background with a soft reflection, landscape 3:2. No jewellery setting, extra gems, hands, diamonds, scattered sparkles, flare stars, labels, logos, text, watermark, price or certificate.

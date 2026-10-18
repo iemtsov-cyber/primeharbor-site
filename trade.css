@@ -80,3 +80,11 @@
 @media(max-width:1100px) { .trade-hero-grid,.trade-product { gap:40px; } .trade-hero h1 { font-size:66px; } .trade-process>.section-shell,.trade-contact { gap:45px; } }
 @media(max-width:760px) { .trade-hero { padding-top:48px; } .trade-hero-grid,.trade-product,.trade-process>.section-shell,.trade-contact { grid-template-columns:1fr; gap:36px; } .trade-hero h1 { font-size:56px; } .trade-hero-index { margin-top:10px; } .trade-index-item { padding:17px 0; } .trade-index-item strong { font-size:32px; } .trade-intro-note { margin-top:38px; } .trade-category-grid { grid-template-columns:1fr 1fr; gap:0 24px; } .trade-offers { padding-top:48px; } .trade-product { padding:45px 0; } .trade-range,.trade-contact { padding-top:55px; padding-bottom:55px; } .trade-process { padding:50px 0 25px; } .trade-contact form { padding:24px; } .coffee-note { padding:28px; } }
 @media(max-width:420px) { .trade-hero h1 { font-size:48px; } .trade-category-grid { grid-template-columns:1fr; } .trade-actions .btn { width:100%; justify-content:space-between; } .banana-image { height:135px; } .banana-grid figcaption { padding:12px; } .trade-document-copy { padding:24px; } }
+
+/* An illustrative sapphire, presented without product-specific claims. */
+.trade-gems { padding-bottom:72px; }
+.trade-gems-visual { position:relative; overflow:hidden; margin:0; background:#030d1a; border:1px solid var(--line); }
+.trade-gems-visual img { display:block; width:100%; height:auto; }
+.trade-gems-visual figcaption { position:absolute; inset:32px auto auto 40px; pointer-events:none; }
+.trade-gems-visual h2 { margin:0; color:var(--text); font-size:clamp(42px,5vw,76px); line-height:1; letter-spacing:-.02em; }
+@media(max-width:760px) { .trade-gems { padding-bottom:48px; } .trade-gems-visual figcaption { top:22px; left:24px; } .trade-gems-visual h2 { font-size:42px; } .trade-gems-visual img { width:120%; max-width:none; margin-left:-10%; } }
