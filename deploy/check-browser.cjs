@@ -20,6 +20,9 @@ const server=http.createServer((req,res)=>{
     await page.locator(`[data-lang="${lang}"]`).click();
     const s=await page.evaluate(()=>{const h=document.querySelector('.brand-intro').getBoundingClientRect(),v=document.querySelector('video');return {height:h.bottom,width:h.width,overflow:document.documentElement.scrollWidth>innerWidth,controls:v.controls,paused:v.paused,buttons:document.querySelectorAll('.brand-intro button,.hero-film-control').length}});
     assert.ok(Math.abs(s.height-900)<1);assert.equal(s.width,width);assert.equal(s.overflow,false);assert.equal(s.controls,false);assert.equal(s.paused,false);assert.equal(s.buttons,0);checks++;
+    assert.equal(await page.locator('.scroll-indicator,[data-i18n="hero.scroll"]').count(),0);
+    assert.equal(await page.locator('.hero-cta a[href="#pillars"]').count(),1);
+    assert.equal(await page.locator('.hero-cta a[href="#contact"]').count(),1);checks++;
    }
    await page.goto(base+'/talent.html');
    for(const lang of ['ru','en']){await page.locator(`[data-lang="${lang}"]`).click();assert.equal(await page.locator('a[href="tel:+79165362414"]').count(),0);assert.equal(await page.locator('.recruit-contact-card a[href="tel:+74951081801"]').count(),1);checks++;}
