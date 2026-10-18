@@ -1,5 +1,6 @@
 const copy = {
   "en": {
+    "trade.cta": "Products from Sri Lanka",
     "investment.cta": "P.T. Gardens · View opportunity",
     "investment.ctaShort": "Explore P.T. Gardens",
     "education.cta": "For students and universities",
@@ -147,6 +148,7 @@ const copy = {
     "photo.back": "Back to Prime Harbor"
   },
   "ru": {
+    "trade.cta": "Товары из Шри-Ланки",
     "investment.cta": "P.T. Gardens · Инвестиционное предложение",
     "investment.ctaShort": "Подробнее о P.T. Gardens",
     "education.cta": "Студентам и университетам",
